@@ -263,7 +263,7 @@ window.onload = function(){
 					if(boss.param > 100){
 						i = boss.param % 150;
 						if(i >= 120){
-							if(i % 10 === 0){
+							if(i % 5 === 0){
 								p = boss.position.distance(chara.position);
 								p.normalize();
 								k = 0;
